@@ -1,0 +1,10 @@
+## StormBot Bad Words for #casualconversation
+
+_Includes all words listed in [the common config](/common/badwords.md) as well_
+
+| Pattern | Action | Description |
+|---|---|---|
+| `/\brape\b/` | 1 hr ban | Matches the word `rape` anywhere in the message |
+| `/\braped\b/` | 1 hr ban | Matches the word `raped` anywhere in the message |
+| `/\bree+\b/` | 1 hr ban | Matches the word `ree` with possible extra `e`s anywhere in the message |
+| `/\bsoyboy\b/` | 1 hr ban | Matches the word `soyboy` anywhere in the message |
